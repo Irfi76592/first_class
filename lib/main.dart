@@ -1,3 +1,4 @@
+import 'package:first_class/screens/generate.dart';
 import 'package:first_class/screens/history.dart';
 import 'package:flutter/material.dart';
 import 'screens/splash_screen.dart';
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
         "/home": (context) => HomeScreen(),
         "/setting": (context) => SettingsScreen(),
         "/history": (context) => History(),
+        "/generate": (context)=> Generate(),
       },
       home: SplashScreen(),
     );

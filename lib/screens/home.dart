@@ -29,7 +29,9 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, "/generate");
+                  },
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
